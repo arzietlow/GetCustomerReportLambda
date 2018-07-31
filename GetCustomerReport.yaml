@@ -21,10 +21,5 @@ Resources:
         Api2:
           Type: Api
           Properties:
-            Path: /MyResource
-            Method: ANY
-        Api3:
-          Type: Api
-          Properties:
             Path: /
             Method: POST
