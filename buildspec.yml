@@ -1,0 +1,11 @@
+version: 0.1
+phases:
+  install:
+    commands:
+      - aws cloudformation package --template-file GetCustomerReport.yaml --s3-bucket my-test-lambda-deployment-bucket-5
+                                   --output-template-file outputSamTemplate.yaml
+artifacts:
+  type: zip
+  files:
+    - GetCustomerReport.yaml
+    - outputSamTemplate.yaml
