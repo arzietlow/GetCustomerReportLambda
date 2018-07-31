@@ -11,7 +11,7 @@ Resources:
       Description: ''
       MemorySize: 128
       Timeout: 10
-      Role: 'arn:aws:iam::375283443325:role/DALambdaExecutionRole'
+      Role: 'arn:aws:iam::823501270950:role/EmployeePostLambda'
       Events:
         Api1:
           Type: Api
